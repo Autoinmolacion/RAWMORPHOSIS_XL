@@ -1,0 +1,76 @@
+body{
+  display: grid;
+  place-content: center;
+  overflow: scroll;
+  margin:0;
+}
+p {
+  display: block;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 25px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.wrapper {
+  max-width: auto;
+  max-height: auto;
+  margin: 1px
+ 
+}
+.wrapper > div {
+  border: 2px transparent rgb(223, 223, 223);
+  border-radius: 5px;
+  padding: 1em;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 4;
+  grid-row: 1 / 1;
+ }
+
+.two {
+ grid-column: 1 / 8;
+ grid-row: 2 / 5;
+}
+.three {
+  grid-column: 4 / 8;
+  grid-row: 1 / 2;
+ }
+.four {
+ grid-column: 1 / 8;
+ grid-row: 5 / 8;
+}
+.one .Title {
+  display: block;  
+  margin: 0 center;
+  width: 70%;
+  padding-left: 35%;
+}
+.two h2 {
+  font-size: 30px;
+  padding-left: 43.5%;
+}
+.three .HomeButton {
+  width: 37%;
+  display: block;
+  padding-left: 63%;
+}
+.four .Texto p{
+  font-size: 12px;
+  padding-left: 36.8%;
+}
+.four .Audio{
+padding-top: 0.5%;
+padding-left: 41%;
+}
+.four .FirstImg img {
+  display: block;
+  width: 30%;
+  padding-left: 35%;  
+}

@@ -1,0 +1,179 @@
+body{
+  display: grid;
+  place-content: center;
+  overflow: scroll;
+  margin:0;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 25px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.wrapper {
+  max-width: auto;
+  max-height: auto;
+  margin: 1px; 
+}
+.wrapper > div {
+  border: 2px transparent rgb(223, 223, 223);
+  border-radius: 5px;
+  padding: 1em;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 4;
+  grid-row: 1 / 1;
+ }
+.two {
+ grid-column: 1 / 8;
+ grid-row: 2 / 5;
+}
+.three {
+  grid-column: 4 / 8;
+  grid-row: 1 / 2;
+ }
+.four {
+ grid-column: 1 / 8;
+ grid-row: 5 / 8;
+}
+.five {
+ grid-column: 1 / 8;
+ grid-row: 8 / 11;
+}
+.six {
+ grid-column: 1 / 8;
+ grid-row: 11 / 14;
+}
+.seven {
+ grid-column: 1 / 8;
+ grid-row: 14 / 17;
+}
+.eight {
+ grid-column: 1 / 8;
+ grid-row: 17 / 20;
+}
+.nine {
+ grid-column: 1 / 8;
+ grid-row: 20 / 23;
+}
+.ten {
+ grid-column: 1 / 8;
+ grid-row: 23 / 26;
+}
+.eleven {
+ grid-column: 1 / 8;
+ grid-row: 26 / 29;
+}
+.twelve {
+ grid-column: 1 / 8;
+ grid-row: 29 / 32;
+}
+.one .Title {
+  display: block;
+  width: 40%;
+  margin: 0 center;
+  padding-left: 49.5%;
+}
+.two h2 {
+  padding-left: 46.5%;
+}
+.three .HomeButton {
+  width: 37%;
+  display: block;
+  padding-left: 63%;
+}
+.four img {
+  display: block;
+  float: left;
+}
+.four .FirstImg img {
+  width: 26%;
+  padding-left: 4%;
+}
+.four .FirstImg2 img {
+  width: 35%;
+  padding-top: 1%;
+  padding-left: 2%;
+}
+.four .FirstImg3 img {
+  width: 28%;
+  padding-left: 2%;
+}
+.five h2 {
+  padding-left: 47%;
+}
+.six img {
+  display: block;
+  float: left;
+}
+.six .SecondImg img {
+  width: 23%;
+  padding-left: 4%;
+}
+.six .SecondImg2 img {
+  width: 40%;
+  padding-left: 2%;
+}
+.six .SecondImg3 img {
+  width: 25%;
+  padding-left: 2%;
+}
+.seven h2 {
+  padding-left: 42.5%;
+}
+.eight img {
+  display: block;
+  float: left;
+}
+.eight .thirdImg img {
+  width: 26%;
+  padding-left: 23%;
+}
+.eight .thirdImg2 img {
+  width: 26%;
+  padding-left: 2%;
+}
+.nine h2 {
+  padding-left: 44.3%;
+}
+.ten img {
+  display: block;
+  float: left;
+}
+.ten .FourthImg img {
+  width: 35%;
+  padding-left: 8%;
+}
+.ten .FourthImg2 img {
+  width: 25%;
+  padding-left: 2%;
+}
+.ten .FourthImg3 img {
+  width: 20%;
+  padding-left: 2%;
+}
+.eleven h2 {
+  padding-left: 44%;
+}
+.twelve img {
+  display: block;
+  float: left;
+}
+.twelve .FiftImg img {
+  width: 25%;
+  padding-left: 24.5%;
+}
+.twelve .FiftImg2 img {
+  width: 20%;
+  padding-left: 5%;
+}
