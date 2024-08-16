@@ -7,6 +7,8 @@
 
 ### Built With
 HTML, CSS and JavaScript.
-## Getting Started
-Download the .zip file, uncompress and open rawmorphosis.html in your favorite browser.
+## Usage
+`Español:`Descarga el .zip, descomprímelo y abre el archivo `rawmorphosis.html` en tu navegador.
+
+`English:`Download the .zip file, uncompress and open `rawmorphosis.html` in your browser.
 <p align="left">(<a href="https://linktr.ee/raulsaldana">Linktree</a>)</p>
